@@ -1,0 +1,46 @@
+body
+{
+	background: lightblue;
+}
+
+	.login_div1 , .login_div2
+	{
+		background: linear-gradient( rgba(2, 2, 94, 0) 0%, rgba(146, 12, 235, 0.61)100%);
+		padding: 10px;
+		float: none;
+		border-radius: 15px;
+		width: 500px;
+		
+	}
+#player1_score, #player2_score{
+	font-size: 20px;
+}
+
+#question_player, #answer_player{
+	display: inline-block;
+	font-size: 20px;
+}
+
+
+#Player1 , #Player2
+{
+	display: inline-block;
+	margin-left: 20px;
+}
+#word
+{
+	width: 60%;
+}
+#word_display
+{
+	letter-spacing: 5px;
+}
+#output
+{
+background: white;
+border-radius: 10px;
+border-top: 10px solid #AA4465;
+padding: 10px;
+float: none;
+text-align: left;
+}
